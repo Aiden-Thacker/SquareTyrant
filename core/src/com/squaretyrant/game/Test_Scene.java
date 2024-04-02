@@ -28,7 +28,7 @@ public class Test_Scene extends ApplicationAdapter {
 
         //Begin layout
         TextButton textButton = new TextButton("Select", skin);
-        stage.addActor(textButton);
+        root.add(textButton).expandY().bottom().pad(30);
     }
 
     @Override
