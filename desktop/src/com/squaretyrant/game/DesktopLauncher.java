@@ -10,6 +10,6 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("SquareTyrant");
-		new Lwjgl3Application(new SquareTyrant(), config);
+		new Lwjgl3Application(new Core(), config);
 	}
 }
